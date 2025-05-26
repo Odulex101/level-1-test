@@ -35,18 +35,17 @@ body {
   border-radius: 25px;
   color: #e60023;
 }
-.hero {
+.hiro{
+  display: flex;
   text-align: center;
   padding: 4rem 1rem;
   max-width: 800px;
   margin: auto;
 }
-
 .hero h6 {
   font-size: 3.6rem;
   margin-bottom: 1rem;
 }
-
 .hero .subtitle {
   font-size: 1.2rem;
   color: #555;
@@ -62,15 +61,13 @@ body {
   font-size: 1rem;
 }
 
-.feature {
+.feature{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 3rem 2rem;
 }
-
-.feature .text-content {
+.text-content{
   flex: 1;
   min-width: 300px;
   margin-right: 2rem;
@@ -403,4 +400,19 @@ body {
 }
 .footer-links a:hover {
       color: red;
+}
+.live{
+      background-color: #f8f8f8;
+      padding: 1rem;
+      text-align: center;
+}
+.copyright {
+      color: #555;
+      font-size: 0.95rem;
+}
+@media (max-width: 600px) {
+      .copyright {
+        font-size: 0.85rem;
+        padding: 0 1rem;
+      }
 }
